@@ -19,10 +19,5 @@ Provision `sample.sql`
 
 `sudo service nginx restart`
 
-# Steps coming soon
-- make a sample SQL file
-- import sample SQL file into mysql-server
-- create `index.php` that reads info from a DB
-
 Reference
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-14-04
