@@ -3,6 +3,7 @@
 
 ### Using Ubuntu 14.04
 
+```
 sudo apt-get update
 sudo apt-get install nginx
 sudo apt-get install mysql-server
@@ -11,8 +12,9 @@ sudo mysql_secure_installation
 sudo apt-get install php5-fpm php5-mysql
 Make sure `cgi.fix_pathinfo=0` in `/etc/php5/fpm/php.ini`
 sudo service php5-fpm restart
+```
 
-sudo nano /etc/nginx/sites-available/default
+`sudo nano /etc/nginx/sites-available/default`:
 ```
 server {
     listen 80 default_server;
@@ -44,7 +46,7 @@ server {
 }
 ```
 
-sudo service nginx restart
+`sudo service nginx restart`
 
 # Steps coming soon
 - make a sample SQL file
