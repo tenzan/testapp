@@ -1,3 +1,14 @@
+#TODO
+
+1. Create separate containers for
+ - Application (index.php)
+ - Database (MySQL)
+ - Web server (Nginx)
+
+2. Link 3 containers
+
+3. Check if containers interact with each other by changing the database and see if it reflects changes on a browser.
+
 # Preparing a working environment
 ## These steps might be required when building a docker image
 
